@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 
-cab_num = 72
+cab_num = 20
 prob_trunk = 0.2
 cab_list = [1 if x < cab_num * prob_trunk else 0 for x in range(cab_num)]
 random.shuffle(cab_list)
